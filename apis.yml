@@ -1,0 +1,87 @@
+aid: lux-capital
+name: Lux Capital
+description: >-
+  Lux Capital is a New York City-based venture capital firm founded in 2000 by
+  Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building
+  companies at the frontier of science and technology, turning "sci-fi into
+  sci-fact." The firm systematically mines academia and government research labs
+  for breakthrough technologies that have matured beyond proof-of-concept but
+  have not yet attracted mainstream venture attention, then makes long-term bets
+  on contrarians and outsiders challenging the status quo. Lux invests primarily
+  at early stage across three focus areas: AI and technology, defense/space/
+  manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics,
+  and emerging science. The firm manages roughly $7 billion in assets under
+  management across nine core funds, closing Lux Ventures IX at $1.5 billion in
+  January 2026, and has invested in over 200 companies. Through Lux Labs, launched
+  in 2024, the firm has also helped create more than 20 new companies. Notable
+  portfolio companies include Anduril, Applied Intuition, Databricks, Cognition,
+  Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is
+  headquartered in New York City with an additional office in Silicon Valley.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.luxcapital.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Deep Tech
+  - Early Stage
+  - Artificial Intelligence
+  - Defense
+  - Biotech
+  - Space
+  - Robotics
+  - New York
+  - Science
+apis: []
+common:
+  - type: Website
+    url: https://www.luxcapital.com/
+  - type: Portfolio
+    url: https://www.luxcapital.com/companies
+  - type: Portfolio
+    url: portfolio/lux-capital-portfolio.yml
+  - type: Team
+    url: https://www.luxcapital.com/people
+  - type: Team
+    url: team/lux-capital-team.yml
+  - type: News
+    url: https://www.luxcapital.com/news
+  - type: Podcast
+    url: https://www.riskgaming.com/podcast
+  - type: Newsletter
+    url: https://www.riskgaming.com/
+  - type: Contact
+    url: https://www.luxcapital.com/contact
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/lux-capital
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lux-capital/
+  - type: Twitter
+    url: https://twitter.com/Lux_Capital
+  - type: Features
+    data:
+      - 'Stage: Early stage (seed to Series A), select growth'
+      - 'Sectors: AI and technology, defense/space/manufacturing, biotech/healthcare, deep tech, robotics'
+      - 'Geography: United States (primary), global'
+      - 'AUM: ~$7 billion (self-reported)'
+      - 'Latest fund: Lux Ventures IX, $1.5 billion (closed January 2026)'
+      - 'Funds: 9 core funds'
+      - 'Companies: 200+ invested; 20+ created via Lux Labs (est. 2024)'
+      - 'Founded: 2000'
+      - 'Founders: Josh Wolfe, Peter Hebert, Robert Paull'
+      - 'HQ: New York City, NY (additional office in Silicon Valley)'
+    sources:
+      - https://www.luxcapital.com/about
+      - https://en.wikipedia.org/wiki/Lux_Capital
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Lux Capital
+    email: info@luxcapital.com
+    url: https://www.luxcapital.com/
