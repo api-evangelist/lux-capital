@@ -3,9 +3,9 @@ method: searched
 source: https://www.luxcapital.com/companies
 summary:
   portfolio_total: 102
-  in_network: 24
-  api_providers: 15
-  missing: 78
+  in_network: 102
+  api_providers: 21
+  missing: 0
   stubs_created: 0
 companies:
 - name: Anduril
@@ -24,10 +24,10 @@ companies:
   sector: autonomous-vehicles
   status: active
   source: https://www.luxcapital.com/companies
-  slug: applied-intuition
+  slug: appliedintuition
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Databricks
   url: https://www.databricks.com
   description: Data and AI lakehouse platform for analytics, ML, and data engineering.
@@ -84,7 +84,7 @@ companies:
   sector: biotech
   status: ipo
   source: https://www.luxcapital.com/companies
-  slug: exscientia
+  slug: recursion
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -94,9 +94,9 @@ companies:
   sector: space
   status: ipo
   source: https://www.luxcapital.com/companies
-  slug: planet-labs
+  slug: planet
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Saildrone
   url: https://www.saildrone.com
@@ -126,7 +126,7 @@ companies:
   source: https://www.luxcapital.com/companies
   slug: relativity-space
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Sourcegraph
   url: https://sourcegraph.com
@@ -224,63 +224,70 @@ companies:
   sector: ml-infra
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tecton
+  slug: tecton
+  matched_by: domain
 - name: Eikon Therapeutics
   url: https://eikontx.com
   description: Drug discovery using single-molecule imaging of live cells.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eikon-therapeutics
+  slug: eikon-therapeutics
+  matched_by: domain
 - name: Varda
   url: https://www.varda.space
   description: In-space manufacturing of pharmaceuticals and materials.
   sector: space
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: varda
+  slug: varda
+  matched_by: name-slug
 - name: Variant Bio
   url: https://www.variantbio.com
   description: Drug discovery from the genetics of exceptional human populations.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: variant-bio
+  slug: variant-bio
+  matched_by: domain
 - name: Whisper Aero
   url: https://www.whisperaero.com
   description: Quiet electric propulsion and airflow technology.
   sector: aerospace
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whisper-aero
+  slug: whisper-aero
+  matched_by: name-slug
 - name: Reflect Orbital
   url: https://www.reflectorbital.com
   description: Satellite constellation reflecting sunlight to ground sites.
   sector: space
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflect-orbital
+  slug: reflect-orbital
+  matched_by: domain
 - name: Zededa
   url: https://zededa.com
   description: Orchestration platform for distributed edge computing.
   sector: edge-computing
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zededa
+  in_network: true
+  is_api_provider: true
+  slug: zededa
+  matched_by: domain
 - name: Stord
   url: https://www.stord.com
   description: Cloud supply chain and fulfillment network.
@@ -297,169 +304,188 @@ companies:
   sector: gaming
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: statespace
+  slug: statespace
+  matched_by: name-slug
 - name: Survios
   url: https://survios.com
   description: Virtual reality game development studio.
   sector: gaming
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: survios
+  slug: survios
+  matched_by: domain
 - name: W4 Games
   url: https://www.w4games.com
   description: Commercial platform and services around the Godot game engine.
   sector: gaming
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: w4-games
+  slug: w4-games
+  matched_by: domain
 - name: SteadyMD
   url: https://www.steadymd.com
   description: Telehealth infrastructure and clinician workforce for digital health.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: steadymd
+  slug: steadymd
+  matched_by: domain
 - name: Vesta Healthcare
   url: https://www.vestahealthcare.com
   description: Clinical platform supporting caregivers and home-based care.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vesta-healthcare
+  slug: vesta-healthcare
+  matched_by: domain
 - name: PicnicHealth
   url: https://picnichealth.com
   description: Patient medical records platform powering real-world data research.
   sector: health-data
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picnichealth
+  slug: picnichealth
+  matched_by: domain
 - name: Workit Health
   url: https://www.workithealth.com
   description: Telehealth for addiction and substance use treatment.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workit-health
+  slug: workit-health
+  matched_by: domain
 - name: Summer Health
   url: https://www.summerhealth.com
   description: Text-based pediatric telehealth service.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: summer-health
+  slug: summer-health
+  matched_by: domain
 - name: Pinscreen
   url: https://www.pinscreen.com
   description: AI-generated photoreal virtual avatars.
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pinscreen
+  slug: pinscreen
+  matched_by: domain
 - name: Shapeways
   url: https://www.shapeways.com
   description: 3D printing marketplace and on-demand manufacturing; filed for bankruptcy in 2024.
   sector: manufacturing
   status: dead
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shapeways
+  in_network: true
+  is_api_provider: true
+  slug: shapeways
+  matched_by: domain
 - name: Resilience
   url: https://resilience.com
   description: National Resilience, a biopharmaceutical manufacturing company.
   sector: biomanufacturing
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: domain
 - name: Ripcord
   url: https://ripcord.com
   description: Robotic digitization and records automation.
   sector: robotics
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ripcord
+  slug: ripcord
+  matched_by: domain
 - name: Senti Biosciences
   url: https://www.sentibio.com
   description: 'Gene circuit cell and gene therapies (NASDAQ: SNTI).'
   sector: biotech
   status: ipo
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: senti-biosciences
+  slug: senti-biosciences
+  matched_by: domain
 - name: Shiru
   url: https://www.shiru.com
   description: AI-driven discovery of functional proteins for food and materials.
   sector: foodtech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shiru
+  slug: shiru
+  matched_by: domain
 - name: Pivotal Commware
   url: https://www.pivotalcommware.com
   description: Holographic beamforming for 5G and wireless networks.
   sector: telecom
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pivotal-commware
+  slug: pivotal-commware
+  matched_by: domain
 - name: Perchwell
   url: https://perchwell.com
   description: Real estate data and workflow platform for brokers and MLSs.
   sector: real-estate
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: perchwell
+  in_network: true
+  is_api_provider: true
+  slug: perchwell
+  matched_by: domain
 - name: Pawp
   url: https://pawp.com
   description: Digital veterinary clinic and pet telehealth membership.
   sector: petcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pawp
+  slug: pawp
+  matched_by: domain
 - name: Erebor
   description: Digital bank serving startups and crypto/tech companies.
   sector: fintech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: erebor
+  slug: erebor
+  matched_by: name-slug
 - name: Crosby
   description: AI-powered legal contract review and negotiation.
   sector: legal-ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosby
+  slug: crosby
+  matched_by: name-slug
 - name: Applied Compute
   description: Applied AI compute and reinforcement learning company.
   sector: ai
@@ -474,425 +500,477 @@ companies:
   sector: data-infra
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nominal
+  slug: nominal
+  matched_by: name-slug
 - name: Cognichip
   description: AI for semiconductor and chip design.
   sector: semiconductors
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cognichip
+  slug: cognichip
+  matched_by: name-slug
 - name: Conductor AI
   description: AI automation for government and regulated workflows.
   sector: gov-ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: conductor-ai
+  slug: conductor-ai
+  matched_by: name-slug
 - name: Kela Technologies
   description: AI-enabled defense technology company.
   sector: defense
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kela-technologies
+  slug: kela-technologies
+  matched_by: name-slug
 - name: Valthos
   description: Biosecurity and defense against biological threats.
   sector: defense-bio
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valthos
+  slug: valthos
+  matched_by: name-slug
 - name: Majestic Labs
   description: AI memory and server hardware company.
   sector: semiconductors
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: majestic-labs
+  slug: majestic-labs
+  matched_by: name-slug
 - name: Tenzai
   description: AI company in the Lux portfolio.
   sector: ai
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenzai
+  slug: tenzai
+  matched_by: name-slug
 - name: Phonic
   description: Voice AI and audio model company.
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: phonic
+  in_network: true
+  is_api_provider: true
+  slug: phonic
+  matched_by: name-slug
 - name: Medra
   description: Robotics and automation company.
   sector: robotics
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medra
+  slug: medra
+  matched_by: name-slug
 - name: Instock
   description: Automated fulfillment and warehouse robotics.
   sector: robotics
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: instock
+  in_network: true
+  is_api_provider: true
+  slug: instock
+  matched_by: name-slug
 - name: Armada
   description: Edge computing and connectivity for remote environments.
   sector: edge-computing
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: armada
+  in_network: true
+  is_api_provider: true
+  slug: armada
+  matched_by: name-slug
 - name: Basic Capital
   description: Fintech company in the Lux portfolio.
   sector: fintech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: basic-capital
+  slug: basic-capital
+  matched_by: name-slug
 - name: Inductive Bio
   description: AI platform for small-molecule drug discovery.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inductive-bio
+  slug: inductive-bio
+  matched_by: name-slug
 - name: Babylon Bio
   description: Biotechnology company in the Lux portfolio.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: babylon-bio
+  slug: babylon-bio
+  matched_by: name-slug
 - name: Atrandi
   description: Single-cell and biology tools company.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atrandi
+  slug: atrandi
+  matched_by: name-slug
 - name: Amca
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amca
+  slug: amca
+  matched_by: name-slug
 - name: Lumaril
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumaril
+  slug: lumaril
+  matched_by: name-slug
 - name: Bluenote
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluenote
+  slug: bluenote
+  matched_by: name-slug
 - name: Unconventional AI
   description: AI company in the Lux portfolio.
   sector: ai
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  slug: unconventional-ai
+  matched_by: name-slug
 - name: Until Labs
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: until-labs
+  slug: until-labs
+  matched_by: name-slug
 - name: Paradigm
   description: AI-native productivity and spreadsheet company.
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paradigm
+  slug: paradigm
+  matched_by: name-slug
 - name: Coris
   description: AI risk and fraud operations for fintechs.
   sector: fintech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coris
+  slug: coris
+  matched_by: name-slug
 - name: Rivet
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rivet
+  in_network: true
+  is_api_provider: true
+  slug: rivet
+  matched_by: name-slug
 - name: Reflex
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflex
+  slug: reflex
+  matched_by: name-slug
 - name: Stacks
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stacks
+  slug: stacks
+  matched_by: name-slug
 - name: Tactic
   description: AI company automating knowledge work.
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tactic
+  slug: tactic
+  matched_by: name-slug
 - name: Thematic
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thematic
+  slug: thematic
+  matched_by: name-slug
 - name: Thatch
   description: Health benefits platform for employers.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thatch
+  in_network: true
+  is_api_provider: true
+  slug: thatch
+  matched_by: name-slug
 - name: Yonder
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yonder
+  slug: yonder
+  matched_by: name-slug
 - name: Vosbor
   description: Digital exchange for agricultural commodities.
   sector: agritech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vosbor
+  slug: vosbor
+  matched_by: name-slug
 - name: Visor
   description: Personal tax and finance advisory platform.
   sector: fintech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: visor
+  slug: visor
+  matched_by: name-slug
 - name: Performance Drone Works
   description: Combat-ready small unmanned aerial systems.
   sector: defense
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: performance-drone-works
+  slug: performance-drone-works
+  matched_by: name-slug
 - name: Sols Systems
   description: Custom 3D-printed orthotics company.
   sector: healthcare
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sols-systems
+  slug: sols-systems
+  matched_by: name-slug
 - name: Trial Library
   description: Platform improving diversity and access in clinical trials.
   sector: healthtech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trial-library
+  slug: trial-library
+  matched_by: name-slug
 - name: Waymark
   url: https://www.waymarkcare.com
   description: Community-based care for Medicaid populations.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: waymark
+  slug: waymark
+  matched_by: domain
 - name: eGenesis
   url: https://egenesis.com
   description: Genetically engineered organs for xenotransplantation.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: egenesis
+  slug: egenesis
+  matched_by: name-slug
 - name: Plexium
   url: https://www.plexium.com
   description: Targeted protein degradation drug discovery.
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexium
+  slug: plexium
+  matched_by: domain
 - name: Timber
   description: Log management and observability; acquired by Datadog.
   sector: developer-tools
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: timber
+  slug: timber
+  matched_by: name-slug
 - name: Thrive Earlier Detection
   description: Early cancer detection; acquired by Exact Sciences.
   sector: biotech
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thrive-earlier-detection
+  slug: thrive-earlier-detection
+  matched_by: name-slug
 - name: Veo Robotics
   description: Industrial robot safety systems; acquired by Symbotic.
   sector: robotics
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veo-robotics
+  slug: veo-robotics
+  matched_by: name-slug
 - name: Visterra
   url: https://www.visterrainc.com
   description: Antibody therapeutics; acquired by Otsuka.
   sector: biotech
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: visterra
+  slug: visterra
+  matched_by: domain
 - name: Strateos
   url: https://strateos.com
   description: Robotic cloud laboratory for life sciences.
   sector: biotech
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strateos
+  slug: strateos
+  matched_by: domain
 - name: Transphorm
   url: https://www.transphormusa.com
   description: Gallium nitride power semiconductors; acquired by Renesas.
   sector: semiconductors
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transphorm
+  slug: transphorm
+  matched_by: domain
 - name: Silicon Clocks
   description: MEMS resonator technology; acquired by Silicon Labs.
   sector: semiconductors
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silicon-clocks
+  slug: silicon-clocks
+  matched_by: name-slug
 - name: Sibeam
   description: 60GHz wireless chips; acquired by Silicon Image.
   sector: semiconductors
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sibeam
+  slug: sibeam
+  matched_by: name-slug
 - name: Siluria Technologies
   description: Catalytic conversion of natural gas to chemicals.
   sector: cleantech
   status: dead
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: siluria-technologies
+  slug: siluria-technologies
+  matched_by: name-slug
 - name: Tempo Automation
   description: Software-driven PCB manufacturing; went public then bankrupt.
   sector: manufacturing
   status: dead
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tempo-automation
+  slug: tempo-automation
+  matched_by: name-slug
 - name: Science 37
   url: https://www.science37.com
   description: Decentralized clinical trial platform.
   sector: healthtech
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: science-37
+  slug: science-37
+  matched_by: domain
 - name: Vium
   description: Digital vivarium and preclinical drug research.
   sector: biotech
   status: dead
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vium
+  slug: vium
+  matched_by: name-slug
 - name: Physera
   description: Digital physical therapy; acquired by Omada Health.
   sector: healthcare
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: physera
+  slug: physera
+  matched_by: name-slug
 - name: Tendo
   url: https://www.tendo.com
   description: Software connecting patients, clinicians, and caregivers.
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tendo
+  slug: tendo
+  matched_by: domain
 - name: ZipDrug
   description: Pharmacy concierge; acquired by Anthem.
   sector: healthcare
   status: acquired
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zipdrug
+  slug: zipdrug
+  matched_by: name-slug
 - name: Primer
   url: https://primer.ai
   description: Natural language processing for defense and intelligence.

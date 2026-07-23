@@ -19,6 +19,17 @@ description: >-
   headquartered in New York City with an additional office in Silicon Valley.
 x-type: venture-capital
 x-category: Venture Capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.luxcapital.com/favicon.ico
 created: '2026-07-17'
 modified: '2026-07-17'
