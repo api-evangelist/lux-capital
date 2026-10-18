@@ -266,8 +266,8 @@ companies:
   source: https://www.luxcapital.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: whisper-aero
   suggested_slug: whisperaero-com
+  x-name-collision: whisper-aero
 - name: Reflect Orbital
   url: https://www.reflectorbital.com
   description: Satellite constellation reflecting sunlight to ground sites.
@@ -306,8 +306,8 @@ companies:
   source: https://www.luxcapital.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: statespace
   suggested_slug: statespace-gg
+  x-name-collision: statespace
 - name: Survios
   url: https://survios.com
   description: Virtual reality game development studio.
@@ -476,7 +476,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: erebor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://erebor.bank
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Crosby
   description: AI-powered legal contract review and negotiation.
   sector: legal-ai
@@ -485,7 +487,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: crosby
-  matched_by: name-slug
+  matched_by: domain
+  url: https://crosby.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Applied Compute
   description: Applied AI compute and reinforcement learning company.
   sector: ai
@@ -494,7 +498,9 @@ companies:
   slug: applied-compute
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.appliedcompute.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nominal
   description: Test and telemetry data platform for hardware engineering teams.
   sector: data-infra
@@ -503,7 +509,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: nominal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nominal.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cognichip
   description: AI for semiconductor and chip design.
   sector: semiconductors
@@ -512,7 +520,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cognichip
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cognichip.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Conductor AI
   description: AI automation for government and regulated workflows.
   sector: gov-ai
@@ -521,7 +531,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: conductor-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.conductorai.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kela Technologies
   description: AI-enabled defense technology company.
   sector: defense
@@ -530,7 +542,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kela-technologies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kela.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Valthos
   description: Biosecurity and defense against biological threats.
   sector: defense-bio
@@ -539,7 +553,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: valthos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://valthos.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Majestic Labs
   description: AI memory and server hardware company.
   sector: semiconductors
@@ -548,7 +564,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: majestic-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://majestic-labs.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tenzai
   description: AI company in the Lux portfolio.
   sector: ai
@@ -557,7 +575,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tenzai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tenzai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Phonic
   description: Voice AI and audio model company.
   sector: ai
@@ -566,7 +586,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: phonic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://phonic.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Medra
   description: Robotics and automation company.
   sector: robotics
@@ -575,7 +597,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: medra
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.medra.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Instock
   description: Automated fulfillment and warehouse robotics.
   sector: robotics
@@ -584,7 +608,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: instock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://instock.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Armada
   description: Edge computing and connectivity for remote environments.
   sector: edge-computing
@@ -593,7 +619,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: armada
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.armada.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Basic Capital
   description: Fintech company in the Lux portfolio.
   sector: fintech
@@ -602,7 +630,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: basic-capital
-  matched_by: name-slug
+  matched_by: domain
+  url: https://basiccapital.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Inductive Bio
   description: AI platform for small-molecule drug discovery.
   sector: biotech
@@ -611,6 +641,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: inductive-bio
+  x-url-candidate: https://www.namepros.com/parked/inductive.co
 - name: Babylon Bio
   description: Biotechnology company in the Lux portfolio.
   sector: biotech
@@ -619,7 +650,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: babylon-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://babylon.bio
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Atrandi
   description: Single-cell and biology tools company.
   sector: biotech
@@ -628,7 +661,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: atrandi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://atrandi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Amca
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -637,7 +672,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: amca
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.amca.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lumaril
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -646,7 +683,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lumaril
-  matched_by: name-slug
+  matched_by: domain
+  url: https://lumaril.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bluenote
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -655,7 +694,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bluenote
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bluenote.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Unconventional AI
   description: AI company in the Lux portfolio.
   sector: ai
@@ -680,7 +721,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: paradigm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.paradigm.xyz/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Coris
   description: AI risk and fraud operations for fintechs.
   sector: fintech
@@ -689,7 +732,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: coris
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.coris.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rivet
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -698,7 +743,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: rivet
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rivet.dev/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Reflex
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -708,6 +755,7 @@ companies:
   is_api_provider: false
   slug: reflex
   matched_by: name-slug
+  x-url-candidate: https://reflex.io
 - name: Stacks
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -716,7 +764,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: stacks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://stacks.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tactic
   description: AI company automating knowledge work.
   sector: ai
@@ -734,7 +784,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: thematic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://app.hellothematic.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Thatch
   description: Health benefits platform for employers.
   sector: healthcare
@@ -743,6 +795,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: thatch
+  x-url-candidate: https://thatch.com
 - name: Yonder
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -751,7 +804,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: yonder
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.yonder.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vosbor
   description: Digital exchange for agricultural commodities.
   sector: agritech
@@ -770,6 +825,7 @@ companies:
   is_api_provider: false
   slug: visor
   matched_by: name-slug
+  x-url-candidate: https://visor.com
 - name: Performance Drone Works
   description: Combat-ready small unmanned aerial systems.
   sector: defense
@@ -788,6 +844,7 @@ companies:
   is_api_provider: false
   slug: sols-systems
   matched_by: name-slug
+  x-url-candidate: https://sols.bio
 - name: Trial Library
   description: Platform improving diversity and access in clinical trials.
   sector: healthtech
@@ -796,7 +853,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: trial-library
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.triallibrary.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Waymark
   url: https://www.waymarkcare.com
   description: Community-based care for Medicaid populations.
@@ -815,8 +874,8 @@ companies:
   source: https://www.luxcapital.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: egenesis
   suggested_slug: egenesis-com
+  x-name-collision: egenesis
 - name: Plexium
   url: https://www.plexium.com
   description: Targeted protein degradation drug discovery.
@@ -919,7 +978,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tempo-automation
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tempoautomation.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Science 37
   url: https://www.science37.com
   description: Decentralized clinical trial platform.
@@ -948,6 +1009,7 @@ companies:
   is_api_provider: false
   slug: physera
   matched_by: name-slug
+  x-url-candidate: https://www.physera.ai/
 - name: Tendo
   url: https://www.tendo.com
   description: Software connecting patients, clinicians, and caregivers.
