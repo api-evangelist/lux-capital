@@ -3,9 +3,9 @@ method: searched
 source: https://www.luxcapital.com/companies
 summary:
   portfolio_total: 102
-  in_network: 102
-  api_providers: 21
-  missing: 0
+  in_network: 95
+  api_providers: 22
+  missing: 7
   stubs_created: 0
 companies:
 - name: Anduril
@@ -44,7 +44,7 @@ companies:
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  slug: cognition
+  slug: cognition-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -74,7 +74,7 @@ companies:
   sector: ai
   status: active
   source: https://www.luxcapital.com/companies
-  slug: runwayml
+  slug: runway
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -84,7 +84,7 @@ companies:
   sector: biotech
   status: ipo
   source: https://www.luxcapital.com/companies
-  slug: recursion
+  slug: exscientia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -94,9 +94,9 @@ companies:
   sector: space
   status: ipo
   source: https://www.luxcapital.com/companies
-  slug: planet
+  slug: planet-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Saildrone
   url: https://www.saildrone.com
@@ -174,9 +174,9 @@ companies:
   sector: ai-infra
   status: active
   source: https://www.luxcapital.com/companies
-  slug: modal
+  slug: modal-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Maven AGI
   url: https://www.mavenagi.com
@@ -236,7 +236,7 @@ companies:
   source: https://www.luxcapital.com/companies
   in_network: true
   is_api_provider: false
-  slug: eikon-therapeutics
+  slug: eikon
   matched_by: domain
 - name: Varda
   url: https://www.varda.space
@@ -264,10 +264,10 @@ companies:
   sector: aerospace
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: whisper-aero
-  matched_by: name-slug
+  x-name-collision: whisper-aero
+  suggested_slug: whisperaero-com
 - name: Reflect Orbital
   url: https://www.reflectorbital.com
   description: Satellite constellation reflecting sunlight to ground sites.
@@ -304,10 +304,10 @@ companies:
   sector: gaming
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: statespace
-  matched_by: name-slug
+  x-name-collision: statespace
+  suggested_slug: statespace-gg
 - name: Survios
   url: https://survios.com
   description: Virtual reality game development studio.
@@ -608,10 +608,9 @@ companies:
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inductive-bio
-  matched_by: name-slug
+  suggested_slug: inductive-bio
 - name: Babylon Bio
   description: Biotechnology company in the Lux portfolio.
   sector: biotech
@@ -662,19 +661,17 @@ companies:
   sector: ai
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: unconventional-ai
-  matched_by: name-slug
+  suggested_slug: unconventional-ai
 - name: Until Labs
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: until-labs
-  matched_by: name-slug
+  suggested_slug: until-labs
 - name: Paradigm
   description: AI-native productivity and spreadsheet company.
   sector: ai
@@ -743,10 +740,9 @@ companies:
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: thatch
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: thatch
 - name: Yonder
   description: Company in the Lux portfolio.
   sector: deep-tech
@@ -817,10 +813,10 @@ companies:
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: egenesis
-  matched_by: name-slug
+  x-name-collision: egenesis
+  suggested_slug: egenesis-com
 - name: Plexium
   url: https://www.plexium.com
   description: Targeted protein degradation drug discovery.

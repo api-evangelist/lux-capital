@@ -1,4 +1,53 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: lux-capital
-leads: []
+leads:
+- name: Whisper Aero
+  url: https://www.whisperaero.com
+  suggested_slug: whisperaero-com
+  sector: aerospace
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: Statespace
+  url: https://statespace.gg
+  suggested_slug: statespace-gg
+  sector: gaming
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: Inductive Bio
+  url: ''
+  suggested_slug: inductive-bio
+  sector: biotech
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: Unconventional AI
+  url: ''
+  suggested_slug: unconventional-ai
+  sector: ai
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: Until Labs
+  url: ''
+  suggested_slug: until-labs
+  sector: deep-tech
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: Thatch
+  url: ''
+  suggested_slug: thatch
+  sector: healthcare
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
+- name: eGenesis
+  url: https://egenesis.com
+  suggested_slug: egenesis-com
+  sector: biotech
+  source_vc: lux-capital
+  source: https://www.luxcapital.com/companies
+  stub_created: false
