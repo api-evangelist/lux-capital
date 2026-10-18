@@ -3,9 +3,9 @@ method: searched
 source: https://www.luxcapital.com/companies
 summary:
   portfolio_total: 102
-  in_network: 97
-  api_providers: 22
-  missing: 5
+  in_network: 99
+  api_providers: 23
+  missing: 3
   stubs_created: 0
 companies:
 - name: Anduril
@@ -638,10 +638,12 @@ companies:
   sector: biotech
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inductive-bio
-  x-url-candidate: https://www.namepros.com/parked/inductive.co
+  url: https://www.inductive.bio
+  x-url-source: web check 2026-10-18 (replaced)
+  slug: inductive
+  matched_by: domain
 - name: Babylon Bio
   description: Biotechnology company in the Lux portfolio.
   sector: biotech
@@ -798,10 +800,12 @@ companies:
   sector: healthcare
   status: active
   source: https://www.luxcapital.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thatch
-  x-url-candidate: https://thatch.com
+  in_network: true
+  is_api_provider: true
+  url: https://thatch.com
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: thatch-health
+  matched_by: domain
 - name: Yonder
   description: Company in the Lux portfolio.
   sector: deep-tech

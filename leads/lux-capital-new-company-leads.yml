@@ -16,20 +16,6 @@ leads:
   source_vc: lux-capital
   source: https://www.luxcapital.com/companies
   stub_created: false
-- name: Inductive Bio
-  url: ''
-  suggested_slug: inductive-bio
-  sector: biotech
-  source_vc: lux-capital
-  source: https://www.luxcapital.com/companies
-  stub_created: false
-- name: Thatch
-  url: ''
-  suggested_slug: thatch
-  sector: healthcare
-  source_vc: lux-capital
-  source: https://www.luxcapital.com/companies
-  stub_created: false
 - name: eGenesis
   url: https://egenesis.com
   suggested_slug: egenesis-com
