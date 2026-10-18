@@ -23,20 +23,6 @@ leads:
   source_vc: lux-capital
   source: https://www.luxcapital.com/companies
   stub_created: false
-- name: Unconventional AI
-  url: ''
-  suggested_slug: unconventional-ai
-  sector: ai
-  source_vc: lux-capital
-  source: https://www.luxcapital.com/companies
-  stub_created: false
-- name: Until Labs
-  url: ''
-  suggested_slug: until-labs
-  sector: deep-tech
-  source_vc: lux-capital
-  source: https://www.luxcapital.com/companies
-  stub_created: false
 - name: Thatch
   url: ''
   suggested_slug: thatch

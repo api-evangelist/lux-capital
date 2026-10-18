@@ -3,9 +3,9 @@ method: searched
 source: https://www.luxcapital.com/companies
 summary:
   portfolio_total: 102
-  in_network: 95
+  in_network: 97
   api_providers: 22
-  missing: 7
+  missing: 5
   stubs_created: 0
 companies:
 - name: Anduril
@@ -702,17 +702,23 @@ companies:
   sector: ai
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  url: https://unconv.ai/
+  x-url-source: web search 2026-10-18
+  slug: unconv
+  matched_by: domain
 - name: Until Labs
   description: Company in the Lux portfolio.
   sector: deep-tech
   status: unknown
   source: https://www.luxcapital.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: until-labs
+  url: https://www.untillabs.com/
+  x-url-source: web search 2026-10-18
+  slug: until
+  matched_by: domain
 - name: Paradigm
   description: AI-native productivity and spreadsheet company.
   sector: ai
